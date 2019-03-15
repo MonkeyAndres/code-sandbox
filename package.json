@@ -1,0 +1,18 @@
+{
+  "name": "codesandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -q index.js",
+    "reset": "npm uninstall `ls -1 node_modules | tr '/\n' ' '`",
+    "postreset": "npm i -D nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
