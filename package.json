@@ -1,7 +1,7 @@
 {
   "name": "codesandbox",
   "version": "1.0.0",
-  "description": "",
+  "description": "It's a small node sandbox.",
   "main": "index.js",
   "scripts": {
     "start": "nodemon -q index.js",
@@ -9,8 +9,8 @@
     "postreset": "npm i -D nodemon"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "MonkeyAndres",
+  "license": "GNU3",
   "dependencies": {},
   "devDependencies": {
     "nodemon": "^1.18.10"
